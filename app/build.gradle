@@ -91,4 +91,22 @@ dependencies {
             because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
         }
     }
+
+    def camerax_version = "1.0.1"
+
+    // CameraX core library
+    implementation "androidx.camera:camera-core:$camerax_version"
+
+    // CameraX Camera2 extensions library
+    implementation "androidx.camera:camera-camera2:$camerax_version"
+
+    // CameraX Lifecyle library
+    implementation "androidx.camera:camera-lifecycle:$camerax_version"
+
+    // CameraX View class
+    implementation "androidx.camera:camera-view:1.0.0-alpha28"
+
+    // Icons
+    implementation "androidx.compose.material:material-icons-extended:$compose_ui_version"
+
 }
